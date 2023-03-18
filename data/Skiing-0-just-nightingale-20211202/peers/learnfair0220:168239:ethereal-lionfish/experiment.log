@@ -1,0 +1,44 @@
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:228 2021-12-02 11:21:29,355] flags:
+{'actor_batch_size': 128,
+ 'baseline_cost': 0.5,
+ 'batch_size': 32,
+ 'checkpoint_history_interval': 3600,
+ 'checkpoint_interval': 600,
+ 'connect': '100.97.72.44:4431',
+ 'device': 'cuda:0',
+ 'discounting': 0.99,
+ 'entity': None,
+ 'entropy_cost': 0.0006,
+ 'env': {'name': 'ALE/Skiing-v5', 'repeat_action_probability': 0.0, 'num_action_repeats': 4, 'noop_max': 30},
+ 'exp_set': 'vtrace-run-13',
+ 'fixup_init': True,
+ 'grad_norm_clipping': 40,
+ 'group': 'Skiing-0-just-nightingale-20211202',
+ 'local_name': 'learnfair0220:168239:ethereal-lionfish',
+ 'localdir': '/checkpoint/hnr/moolib-atari/Skiing-0-just-nightingale-20211202/peers/learnfair0220:168239:ethereal-lionfish',
+ 'log_fmt': '[%(levelname)s:learnfair0220:168239:ethereal-lionfish '
+            '%(module)s:%(lineno)d %(asctime)s] %(message)s',
+ 'log_interval': 10,
+ 'num_actor_batches': 2,
+ 'num_actor_cpus': 10,
+ 'optimizer': {'learning_rate': 0.0006, 'beta_1': 0.9, 'beta_2': 0.999, 'epsilon': 1e-08},
+ 'project': 'moolib-atari',
+ 'reward_clip': 1.0,
+ 'savedir': '/checkpoint/hnr/moolib-atari/Skiing-0-just-nightingale-20211202',
+ 'state_counter': 'none',
+ 'total_steps': 50000000.0,
+ 'unroll_length': 20,
+ 'use_lstm': False,
+ 'virtual_batch_size': 32,
+ 'wandb': True,
+ 'warmup': 0}
+
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:233 2021-12-02 11:21:29,358] savedir: /checkpoint/hnr/moolib-atari/Skiing-0-just-nightingale-20211202 (symlinked as 'latest')
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:243 2021-12-02 11:21:29,358] train_id: hnr/moolib-atari/Skiing-0-just-nightingale-20211202
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:260 2021-12-02 11:21:33,935] Number of model parameters: 1094476
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:350 2021-12-02 11:21:43,598] Optimising CuDNN kernels
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:387 2021-12-02 11:21:43,599] Your training will commence shortly.
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:387 2021-12-02 11:21:44,601] Your training will commence shortly.
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:394 2021-12-02 11:21:45,621] Training started. Leader is me!, 1 members, model version is 0
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:444 2021-12-02 11:21:45,627] Created symlink /checkpoint/hnr/moolib-atari/Skiing-0-just-nightingale-20211202/leader-000 -> /checkpoint/hnr/moolib-atari/Skiing-0-just-nightingale-20211202/peers/learnfair0220:168239:ethereal-lionfish
+[INFO:learnfair0220:168239:ethereal-lionfish experiment:449 2021-12-02 11:21:45,628] Training a new model from scratch.
